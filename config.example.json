@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://vala-wallet.cc",
+  "instrumentId": "Amulet",
+  "requestTimeoutMs": 30000,
+  "loginConcurrency": 3,
+  "transferMode": "internal-round-robin",
+  "maxTransfersPerAccount": 10,
+  "minTransferAmount": 0.3,
+  "maxTransferAmount": 2,
+  "transferAmountPrecision": 2,
+  "verifyAfterSubmit": true,
+  "verificationPollIntervalMs": 3000,
+  "verificationPollAttempts": 8,
+  "interTransferDelayMs": 1000
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vala Session Exporter</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="popup">
+      <header class="hero">
+        <p class="eyebrow">Vala Bot</p>
+        <h1>Session Exporter</h1>
+        <p class="subtitle">Ambil <code>sessionToken</code>, full cookie header, dan snippet akun langsung dari browser.</p>
+      </header>
+
+      <section class="panel">
+        <div class="status-row">
+          <span class="label">Status</span>
+          <span id="statusBadge" class="badge">Checking...</span>
+        </div>
+        <div class="meta-grid">
+          <div>
+            <span class="label">Username</span>
+            <p id="usernameValue" class="value">-</p>
+          </div>
+          <div>
+            <span class="label">Party ID</span>
+            <p id="partyIdValue" class="value compact">-</p>
+          </div>
+          <div>
+            <span class="label">Cookie Count</span>
+            <p id="cookieCountValue" class="value">0</p>
+          </div>
+          <div>
+            <span class="label">Expiry</span>
+            <p id="expiryValue" class="value">-</p>
+          </div>
+        </div>
+        <p id="hintText" class="hint">Buka tab `https://vala-wallet.cc/dashboard` supaya username dan partyId bisa terbaca otomatis.</p>
+        <button id="refreshButton" class="secondary" type="button">Refresh</button>
+      </section>
+
+      <section class="panel">
+        <div class="field-head">
+          <h2>Session Token</h2>
+          <button id="copyTokenButton" type="button">Copy</button>
+        </div>
+        <textarea id="tokenOutput" rows="4" readonly></textarea>
+      </section>
+
+      <section class="panel">
+        <div class="field-head">
+          <h2>Cookie Header</h2>
+          <button id="copyCookieButton" type="button">Copy</button>
+        </div>
+        <textarea id="cookieOutput" rows="4" readonly></textarea>
+      </section>
+
+      <section class="panel">
+        <div class="field-head">
+          <h2>accounts.json Snippet</h2>
+          <button id="copySnippetButton" type="button">Copy</button>
+        </div>
+        <textarea id="snippetOutput" rows="9" readonly></textarea>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

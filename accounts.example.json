@@ -1,0 +1,18 @@
+[
+  {
+    "name": "wallet-1",
+    "username": "your_username_1",
+    "privateKey": "0x.................................................................",
+    "partyId": "optional_party_id_from_browser_state",
+    "sessionToken": "optional_session_token_cookie_value",
+    "cookieHeader": "optional_full_cookie_header_like_sessionToken=..."
+  },
+  {
+    "name": "wallet-2",
+    "username": "your_username_2",
+    "privateKey": "0x.................................................................",
+    "partyId": "optional_party_id_from_browser_state",
+    "sessionToken": "optional_session_token_cookie_value",
+    "cookieHeader": "optional_full_cookie_header_like_sessionToken=..."
+  }
+]

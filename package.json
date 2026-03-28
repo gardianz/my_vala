@@ -1,0 +1,15 @@
+{
+  "name": "vala-transfer-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Batch CC transfer bot for Vala Wallet",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.2.3",
+    "@noble/hashes": "^1.7.1"
+  }
+}

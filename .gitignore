@@ -1,0 +1,15 @@
+node_modules/
+dist/
+build/
+
+accounts.json
+
+.env
+.env.*
+
+*.log
+*.tmp
+*.zip
+
+.DS_Store
+Thumbs.db
