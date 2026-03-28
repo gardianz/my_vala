@@ -21,11 +21,6 @@ Contoh template tersedia di:
 - `accounts.example.json`
 - `transfers.example.json`
 
-Untuk repo GitHub, file real berikut sebaiknya tetap lokal saja dan tidak di-commit:
-
-- `accounts.json`
-
-Repo ini sudah disiapkan dengan `.gitignore` agar private key dan `sessionToken` dari `accounts.json` tidak ikut ter-push. `config.json` dan `transfers.json` boleh ikut di-commit kalau memang tidak berisi data sensitif.
 
 ## Menjalankan
 
